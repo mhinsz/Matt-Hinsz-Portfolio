@@ -29,7 +29,7 @@ function Default(){
                     to quality and creativity. Each project showcases my ability to transform ideas into dynamic digital solutions, 
                     tailored to meet the unique needs of clients. Whether you are looking for a sleek corporate website, an 
                     interactive e-commerce platform, or a custom web application, I have the expertise to bring your vision to life. 
-                    Let's build something amazing together!
+                    Let's build something amazing together.
                 </p>
             </div>    
         </motion.div>
