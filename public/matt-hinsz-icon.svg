@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32mm"
+   height="32mm"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="matt-hinsz-icon.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-49.038952,-118.19645)">
+    <circle
+       id="path2"
+       cx="-134.19507"
+       cy="65.037575"
+       r="15.998621"
+       style="fill:#d5e5ff;stroke-width:0.282891"
+       transform="rotate(-90)" />
+  </g>
+  <g
+     id="g2"
+     transform="matrix(1.5516444,0,0,1.5516444,-173.00934,-191.07078)"
+     style="fill:#220b28">
+    <path
+       style="font-size:10.5833px;line-height:1.25;font-family:'Jet Airliner';-inkscape-font-specification:'Jet Airliner';fill:#550022;stroke-width:0.357433"
+       d="m 123.83394,137.41232 c 0.78636,-3.81739 4.36068,-9.6078 5.54737,-10.78018 -0.27166,-0.12875 -0.71487,-0.18587 -1.20098,-0.14296 -0.4861,0.0571 -0.95792,0.27165 -1.32965,0.61478 -1.64421,1.50122 -3.43137,3.6744 -4.8611,5.71892 0.30024,-1.81575 0.78636,-3.7602 1.10091,-4.94687 0.18586,-0.4861 0.30023,-0.88644 0.32882,-1.17237 0,0 0,0 0,0 v 0 c 0.0144,-0.15728 0,-0.28595 -0.0287,-0.37175 -0.18586,-0.35742 -0.98652,-0.38603 -2.08741,-0.20014 0.12861,0.529 1.18668,2.53061 -3.93176,9.5792 -1.41543,1.93012 -2.37335,0.0571 -2.37335,0.0571 0,0 -2.00163,2.83088 -1.40114,3.45996 1.54411,1.58699 5.64745,-3.97465 8.03508,-8.30674 -0.37173,1.28678 -0.65765,2.6021 -0.87213,3.73158 -1.07229,1.7014 -1.71567,3.08825 -1.58699,3.50286 0.11446,0.38604 0.90071,0.529 2.0016,0.529 -0.0431,-0.50039 -0.38602,-3.30267 4.16053,-8.50691 -2.13029,4.18913 -4.08902,10.6658 -1.74426,11.05184 1.51551,0.24306 2.58781,-1.64418 2.58781,-1.64418 0,0 -2.83086,0.18584 -2.34476,-2.17323 z"
+       id="text1"
+       aria-label="M" />
+  </g>
+</svg>
