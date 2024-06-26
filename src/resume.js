@@ -77,10 +77,9 @@ export const RESUME_ITEMS = [
     company: 'Signal Theory',
     title:'Developer',
     location:'Kansas City, MO',
-    dates:'Aug 2024 - Nov 2024',
+    dates:'Aug 2017 - Nov 2023',
     details: [
-      'Build out websites from XD and Figma design files, using Wordpress.',
-      'Develop custom Wordpress themes, plugins, and other functions using PHP.',
+      'Coding in PHP to develop custom Wordpress themes, plugins, and other functionality.',
       'Use of JavaScript/Jquery to create eye-catching, interactive, and full-featured websites.',
     ],
   },
