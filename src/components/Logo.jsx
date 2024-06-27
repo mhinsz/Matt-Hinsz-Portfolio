@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 function Logo({onChange}){
     return(
-        <div className="cursor-pointer" onClick={()=>onChange('default')}>
+        <Link to="/">
             <svg
                 className="fill-rose-950 max-w-48 md:max-w-60 h-auto filter"
                 width="342.03946"
@@ -49,7 +51,7 @@ function Logo({onChange}){
                     </g>
                 </g>
             </svg>
-        </div>
+        </Link>
     );
 }
 export default Logo;

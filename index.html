@@ -13,11 +13,15 @@
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-13X2DQPP1L"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    var host = window.location.hostname;
+    if(host != "localhost")
+    {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'G-13X2DQPP1L'); 
+      gtag('config', 'G-13X2DQPP1L'); 
+    }
   </script>
   <body class="text-stone-800 bg-gradient-to-b from-slate-50 to-slate-300 m-auto max-w-7xl text-lg">
     <div id="root" class="min-h-screen"></div>

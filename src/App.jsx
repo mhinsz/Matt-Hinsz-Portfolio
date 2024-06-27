@@ -1,30 +1,29 @@
-import { useState } from 'react'
-import { AnimatePresence } from 'framer-motion';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './App.css'
 
-import Header from './components/Header';
 import Default from "./components/Default";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
-import Footer from './components/Footer';
+import LayoutRoot from './components/LayoutRoot';
+import Error from "./components/Error";
+
+const router = createBrowserRouter([
+  { 
+    path: '/', 
+    element: <LayoutRoot />,
+    errorElement: <Error />,
+    children: [
+      { path: '/', element: <Default />},
+      { path: '/resume', element: <Resume />},
+      { path: '/portfolio', element: <Portfolio /> }
+    ]
+  },
+]);
 
 function App() {
-  const [currView, setCurrView] = useState('default');
-
-  function handleChangeView(view){
-    setCurrView(view);
-  }
 
   return (
-    <>
-      <Header onChange={handleChangeView} />
-      <AnimatePresence>
-        {currView==='default' && <Default />}
-        {currView==='resume' && <Resume />}
-        {currView==='portfolio' && <Portfolio />}
-        <Footer />
-      </AnimatePresence> 
-    </>
+    <RouterProvider router={router} />
   )
 }
 
