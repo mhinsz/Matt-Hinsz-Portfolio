@@ -15,7 +15,7 @@ function Default(){
             layout
             className={divClass}
         >
-            <div className='w-full md:w-1/4 order-2 md:order-1 relative overflow-hidden aspect-square md:aspect-[3/5] self-stretch rounded-md'>
+            <div className='w-full md:w-1/4 order-2 md:order-1 relative overflow-hidden aspect-square md:aspect-[3/5] self-stretch p-2 border-4 border-rose-950 rounded-md'>
                 <img className="rounded-md relative object-cover h-full w-full ;" src={homeImage} />
             </div>
             <motion.div 
