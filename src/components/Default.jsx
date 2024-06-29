@@ -1,4 +1,4 @@
-import bwImage from '../assets/bw-image.jpeg'
+import homeImage from '../assets/mh-home-img.jpg'
 import { motion } from 'framer-motion';
 
 function Default(){
@@ -15,8 +15,8 @@ function Default(){
             layout
             className={divClass}
         >
-            <div className='w-full md:w-1/4 order-2 md:order-1 relative overflow-hidden aspect-square md:aspect-auto self-stretch p-2 border-4 border-rose-950 rounded-md'>
-                <img className="rounded-md drop-shadow-lg relative object-cover h-full w-full" src={bwImage} />
+            <div className='w-full md:w-1/4 order-2 md:order-1 relative overflow-hidden aspect-square md:aspect-[3/5] self-stretch rounded-md'>
+                <img className="rounded-md relative object-cover h-full w-full ;" src={homeImage} />
             </div>
             <motion.div 
                 variants={{
