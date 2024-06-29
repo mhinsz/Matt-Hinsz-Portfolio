@@ -19,7 +19,7 @@ function PortfolioItem({id,image,title,url,tags}){
                     <img className="w-full object-cover rounded-sm aspect-video" src={image} alt={title} />
                 
                 <motion.div 
-                    whileTap={{opacity:.85}}
+                    
                     whileHover={{opacity:.85}}
                     transition={{type:'tween',ease:'easeOut',duration:.4}}
                     className="w-full h-full opacity-0 rounded-lg bg-gradient-to-b from-slate-50 to-slate-300 absolute left-0 top-0 flex flex-wrap justify-center content-center"
