@@ -28,6 +28,8 @@ export const SKILL_ITEMS = [
       'Wordpress',
       'Hubspot CMS',
       'Squarespace',
+      'Drupal',
+      'Joomla'
     ]
   },
   {
