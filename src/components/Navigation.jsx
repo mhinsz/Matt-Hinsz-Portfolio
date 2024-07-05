@@ -15,7 +15,11 @@ function Navigation({onChange}){
                         Portfolio
                     </NavLink>
                 </li>
-                <li className={navClasses}><a href="mailto:mdhh123@gmail.com" target="_blank" className="fa fa-envelope text-rose-950 text-xl"></a></li>
+                <li className={navClasses}>
+                    <NavLink className={({isActive}) => isActive ? 'font-bold' : undefined} to='/contact'>
+                        Contact
+                    </NavLink>
+                </li>    
             </ul>
         </div>
     );
