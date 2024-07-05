@@ -9,8 +9,8 @@ function LayoutRoot(){
             <Header />
             <AnimatePresence>
                 <Outlet />
-                <Footer />
             </AnimatePresence> 
+            <Footer />
         </>
     );
 }
