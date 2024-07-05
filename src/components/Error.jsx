@@ -1,5 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
-import { AnimatePresence } from 'framer-motion';
+import { Link } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 

@@ -20,9 +20,8 @@ function Contact(){
             className={divClass}
         >
             <h1 className="text-5xl md:text-8xl mb-6 text-center text-rose-950 w-full">Get in touch</h1>
-            <form name="contact" method="post" className="w-full md:w-1/2">
+            <form name="contact" method="post" action="/thank-you" className="w-full md:w-1/2">
                 <input type="hidden" name="form-name" value="contact" />
-
                 <FormField name="name" type="text" required>Name</FormField>
                 <FormField name="email" type="email" required>Email</FormField>
                 <FormField name="company" type="text">Company</FormField>

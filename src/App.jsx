@@ -5,6 +5,7 @@ import Default from "./components/Default";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import FormSubmit from "./components/FormSubmit";
 import LayoutRoot from './components/LayoutRoot';
 import Error from "./components/Error";
 
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       { path: '/resume', element: <Resume />},
       { path: '/portfolio', element: <Portfolio /> },
       { path: '/contact', element: <Contact /> },
+      { path: '/thank-you', element: <FormSubmit /> },
     ]
   },
 ]);
