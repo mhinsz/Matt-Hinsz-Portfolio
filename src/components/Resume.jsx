@@ -17,7 +17,7 @@ function Resume(){
             layout
             className={divClass}
         >
-            <h1 className="text-4xl md:text-8xl mb-6 text-center text-rose-950 w-full">Places I've Been</h1>
+            <h1 className="text-5xl md:text-8xl mb-6 text-center text-rose-950 w-full">Places I've Been</h1>
 
             <motion.div variants={{visible: {transition:{staggerChildren:0.075}} }} className="w-full md:w-2/3 md:pr-8 my-6">
 

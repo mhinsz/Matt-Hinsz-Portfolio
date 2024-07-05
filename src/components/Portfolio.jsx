@@ -17,7 +17,7 @@ function Portfolio(){
             layout 
             className={divClass}
         >
-            <h1 className="text-4xl md:text-8xl mb-6 text-center text-rose-950 w-full">Things I've Done</h1>
+            <h1 className="text-5xl md:text-8xl mb-6 text-center text-rose-950 w-full">Things I've Done</h1>
 
             {PORTFOLIO_ITEMS.map((item) => (
                 <div className="w-full md:w-1/2 mt-6 md:mt-0 p-0 md:p-3 lg:p-5" key={item.id}>
