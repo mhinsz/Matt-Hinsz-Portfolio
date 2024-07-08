@@ -27,9 +27,7 @@ export const SKILL_ITEMS = [
     items:[
       'Wordpress',
       'Hubspot CMS',
-      'Squarespace',
-      'Drupal',
-      'Joomla'
+      'Sanity',
     ]
   },
   {
