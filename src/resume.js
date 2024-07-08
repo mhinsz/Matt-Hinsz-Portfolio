@@ -18,7 +18,6 @@ export const SKILL_ITEMS = [
       'JQuery',
       'Bootstrap',
       'Tailwind CSS',
-      'Framer Motion',
     ]
   },
   {
