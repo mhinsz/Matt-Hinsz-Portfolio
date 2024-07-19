@@ -7,6 +7,7 @@ import drpsg from './assets/drpsg.jpg';
 import fusion from './assets/fws.jpg';
 import deere from './assets/john-deere-financial.jpeg';
 import fanthreesixty from './assets/fanthreesixty.jpeg';
+import signalTheory from './assets/signal-theory.jpg';
 
 export const PORTFOLIO_ITEMS = [
     {
@@ -71,5 +72,12 @@ export const PORTFOLIO_ITEMS = [
     title: 'Advocate Self Care',
     url:'https://advocateselfcare.com/',
     tags: ['Wordpress','PHP','HTML','CSS','Avada'],
+  },
+  {
+    id: 'p9',
+    image: signalTheory,
+    title: 'Signal Theory',
+    url:'https://signaltheory.com/',
+    tags: ['Wordpress','PHP','HTML','CSS','JavaScript','jQuery','Adobe XD'],
   },
 ];
